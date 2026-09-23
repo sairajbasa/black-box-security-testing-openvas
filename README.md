@@ -271,9 +271,6 @@ black-box-security-testing-openvas/
 ├── 📁 reports/
 │   └── Sanitized-OpenVAS-Report.pdf
 │
-├── 📁 presentation/
-│   └── Black-Box-Security-Testing-Presentation.pdf
-│
 └── 📁 demo/
     └── video-link.txt
 ```
@@ -284,7 +281,7 @@ black-box-security-testing-openvas/
 
 A demonstration video of the project is available here:
 
-👉 **[Watch Project Demonstration](YOUR_VIDEO_LINK_HERE)**
+👉 **[Watch Project Demonstration](https://drive.google.com/file/d/12e0jEyuDRw8kmAm7mGS8aTNDZ68TG4tl/view?usp=sharing)**
 
 > Replace `YOUR_VIDEO_LINK_HERE` with the actual video URL.
 
@@ -296,7 +293,6 @@ Additional project materials are available in the repository:
 
 * 📄 [Project Documentation](documentation/Project-Documentation.pdf)
 * 📊 [OpenVAS Scan Report](reports/Sanitized-OpenVAS-Report.pdf)
-* 🎞️ [Project Presentation](presentation/Black-Box-Security-Testing-Presentation.pdf)
 
 > Only sanitized versions of the original academic documents should be published in this repository.
 
