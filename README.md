@@ -283,7 +283,6 @@ A demonstration video of the project is available here:
 
 👉 **[Watch Project Demonstration](https://drive.google.com/file/d/12e0jEyuDRw8kmAm7mGS8aTNDZ68TG4tl/view?usp=sharing)**
 
-> Replace `YOUR_VIDEO_LINK_HERE` with the actual video URL.
 
 ---
 
