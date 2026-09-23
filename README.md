@@ -6,7 +6,7 @@ This project demonstrates **Black Box Security Testing and Vulnerability Assessm
 
 The objective was to assess a deliberately vulnerable target environment, identify security vulnerabilities, analyze their severity, and document the findings along with recommended remediation measures.
 
-The project was performed as part of an academic cybersecurity project using **OpenVAS/Greenbone Vulnerability Management** and a vulnerable **Metasploitable** environment.
+The project was performed as part of an academic cybersecurity project using **OpenVAS / Greenbone Vulnerability Management (GVM)** and a vulnerable **Metasploitable** environment.
 
 ---
 
@@ -41,7 +41,7 @@ The main objectives of this project were:
 
 ## 🔎 What is OpenVAS?
 
-**OpenVAS (Open Vulnerability Assessment Scanner)** is a full-featured vulnerability scanning solution used to identify security vulnerabilities in systems and networks.
+**OpenVAS (Open Vulnerability Assessment Scanner)** is a vulnerability scanning solution used to identify security vulnerabilities in systems and networks.
 
 It supports different types of vulnerability assessments, including authenticated and unauthenticated testing, and uses regularly updated vulnerability feeds to perform security checks.
 
@@ -83,7 +83,7 @@ Using a containerized deployment simplified the installation process by providin
 
 After installation, the vulnerability feeds needed to be synchronized before performing the assessment.
 
-The feed status was monitored through the OpenVAS/Greenbone administration interface.
+The feed status was monitored through the OpenVAS / Greenbone administration interface.
 
 Depending on system resources and feed size, the initial synchronization can take considerable time.
 
@@ -131,13 +131,13 @@ The first step was to determine the system to be assessed and define the scope o
 For this academic project, a deliberately vulnerable **Metasploitable** environment was used as the target.
 
 ```text
-Tester
-  │
-  │ Black Box Assessment
-  ▼
+👨‍💻 Tester
+     │
+     │ Black Box Assessment
+     ▼
 🎯 Metasploitable
-  │
-  ▼
+     │
+     ▼
 🔍 OpenVAS Scanner
 ```
 
@@ -200,7 +200,7 @@ Typical severity categories include:
 🟠 High
 🟡 Medium
 🔵 Low
-⚪ Log / Information
+⚪ Informational
 ```
 
 The Metasploitable target intentionally contains numerous vulnerabilities, so the scan produced a significant number of findings.
@@ -233,8 +233,8 @@ A key part of the project was analyzing the automated OpenVAS results and docume
 Rather than relying only on the automatically generated scanner report, the assessment documentation focused on:
 
 * 🔎 Identifying important findings
-* 📊 Understanding severity
-* 📝 Documenting the affected components
+* 📊 Understanding vulnerability severity
+* 📝 Documenting affected components
 * ⚠️ Explaining potential security impact
 * 💡 Providing remediation recommendations
 
@@ -246,9 +246,9 @@ This helped demonstrate that vulnerability assessment involves not only running 
 
 Through this project, I gained practical exposure to:
 
-* 🔐 Vulnerability assessment
+* 🔐 Vulnerability Assessment
 * 🧪 Black Box Security Testing
-* 🛠️ OpenVAS vulnerability scanning
+* 🛠️ OpenVAS / GVM
 * 🐳 Deploying security tools using Docker
 * 🐧 Linux environments
 * 📊 Vulnerability severity analysis
@@ -272,13 +272,7 @@ black-box-security-testing-openvas/
 │   └── Sanitized-OpenVAS-Report.pdf
 │
 ├── 📁 presentation/
-│   └── Project-Presentation.pdf
-│
-├── 📁 screenshots/
-│   ├── openvas-dashboard.png
-│   ├── scan-configuration.png
-│   ├── scan-progress.png
-│   └── vulnerability-results.png
+│   └── Black-Box-Security-Testing-Presentation.pdf
 │
 └── 📁 demo/
     └── video-link.txt
@@ -292,7 +286,7 @@ A demonstration video of the project is available here:
 
 👉 **[Watch Project Demonstration](YOUR_VIDEO_LINK_HERE)**
 
-> Replace `YOUR_VIDEO_LINK_HERE` with the actual video URL after uploading the video.
+> Replace `YOUR_VIDEO_LINK_HERE` with the actual video URL.
 
 ---
 
@@ -302,7 +296,7 @@ Additional project materials are available in the repository:
 
 * 📄 [Project Documentation](documentation/Project-Documentation.pdf)
 * 📊 [OpenVAS Scan Report](reports/Sanitized-OpenVAS-Report.pdf)
-* 🎞️ [Project Presentation](presentation/Project-Presentation.pdf)
+* 🎞️ [Project Presentation](presentation/Black-Box-Security-Testing-Presentation.pdf)
 
 > Only sanitized versions of the original academic documents should be published in this repository.
 
@@ -324,7 +318,7 @@ No unauthorized systems were intentionally targeted as part of this project.
 
 🎓 B.Tech – Computer Science and Engineering (Cybersecurity)
 
-🔗 GitHub: [sairajbasa](https://github.com/sairajbasa)
+🔗 GitHub: https://github.com/sairajbasa
 
 ---
 
